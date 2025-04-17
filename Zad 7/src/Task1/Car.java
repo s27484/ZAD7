@@ -9,4 +9,14 @@ public class Car extends Vehicle {
         return numberOfSeats;
 
     }
+    public String start() {
+
+        return "Vehicle started";
+
+    }
+    public String stop() {
+
+        return "Vehicle stopped";
+
+    }
 }
